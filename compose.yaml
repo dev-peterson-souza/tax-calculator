@@ -1,0 +1,6 @@
+﻿services:
+  taxcalculator.api:
+    image: taxcalculator.api
+    build:
+      context: .
+      dockerfile: src/entrypoint/TaxCalculator.Api/Dockerfile
